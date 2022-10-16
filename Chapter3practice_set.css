@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 66px;
+    border: 2px dotted white;
+    background-color: black;
+    color: white;
+}
+
+.content {
+    color: #fff;
+    margin: 20px;
+    box-sizing: border-box;
+    background-color: red;
+    height: 80vh;
+}
+
+footer {
+    background-color: rebeccapurple;
+    color: rgba(255, 255, 255, 0.823);
+    margin: 10px;
+}
+
+.center {
+    text-align: center;
+}

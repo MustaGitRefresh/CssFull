@@ -1,0 +1,32 @@
+.box1 {
+    width: 500px;
+    height: 100px;
+    background-color: red;
+    /* padding-bottom: 20px; It is available */
+    /* Check the reference in html file */
+    /* display: inline; this will not allow to set height and width */
+    /* display: inline-block; this will allow to set height and width */
+    /* display: inline-block; */
+    /* display: none; It totally removes the element from the DOM */
+    /* visibility: hidden; It only hides the element */
+    text-align: center;
+    /* line-height: 0.05px; */
+    font-size: 24px;
+    font-family: 'monospace', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: 'Comic Sans MS';
+}
+
+.box2 {
+    width: 500px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    /* Check the reference in html file */
+    /* display: inline; */
+    /* text-align: center; */
+    text-transform: capitalize;
+    text-decoration: underline;
+}

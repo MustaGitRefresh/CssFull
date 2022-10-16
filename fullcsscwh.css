@@ -1,0 +1,71 @@
+/* #first {
+    background-color: aqua;
+} */
+/* selectors */
+/* body{
+    background-color:aquamarine;
+}
+h1{
+    color:red;
+    background-color: antiquewhite;
+}
+p, h3{
+    color:blue;
+    background-color: blueviolet;
+}
+
+p #strong{
+    color:red;
+}
+
+.blue{
+    color: white;
+    background-color: blue;
+    border: 2px solid red;
+} */
+/*{
+    This is not worthy
+    margin:0;
+    padding:0;
+} */
+/* Colors and backgrounds */
+/* HSL = Hue Saturation lightness */
+/* .red{
+    height: 244px;
+    background-color: rgba(20, 270, 510,0.5);
+    color:white;
+}
+
+.green{
+    background-color: #34ebd2;
+    color:#eb9534
+}
+
+*{
+    margin: 0;
+    padding: 0;
+} */
+/* 
+.background-images{
+    color:white;
+    background-color:purple;
+}
+*/
+/* body{
+
+} */
+/* Using the background-size property */
+/* .container { */
+    /* height: 1844px;
+    width: 1500px; */
+    /* background-color: rebeccapurple; */
+    /* border: 2px solid blue;
+    color: beige; */
+    /* background-image: url('flower.jpg');
+    background-repeat: no-repeat;
+    background-size: auto; */
+    /* background-position: top center; */
+    /* background-position: 25% 75%; */
+    /* background-attachment: scroll, local; */
+    /* background: red url('flower.jpg') no-repeat auto fixed top right; */
+/* } */

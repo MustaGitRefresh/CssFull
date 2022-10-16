@@ -1,0 +1,28 @@
+/* * { */
+/* padding: 0; */
+/* margin: 0; */
+/* } */
+
+/* .content { */
+/* height: 223px; */
+/* width: 345px; */
+/* background-color: red; */
+/* margin: 14px; */
+/* Imagine a clock while determining the values of the shorthand margin */
+/* margin: 4px 2px 4px 2px; */
+/* First value of the shorthand margin of the two values is the vertical(top and botttom) and second value horizontal(left and right) */
+/* margin: 2px 4px;
+    padding: 13px;
+    border: 4px solid blue; */
+/* border-width: 4px; */
+/* if the four values is given than same as the margin values clock */
+/* And three values will be like{
+        first: top,
+        second: left and right,
+        third: bottom
+     } => but it is not recommended to use this type of syntax and giving values */
+/* border-style: dashed solid; */
+/* border-style: solid; */
+/* border-color: aquamarine; */
+/* border-radius: 9px; */
+/* } */

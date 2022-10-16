@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div setter</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/fullcsscwh.html">First</a></li>
+            <li><a href="http://127.0.0.1:5500/csschap3.html">Third </a></li>
+        </ul>
+    </div>
+    <div class="left"></div>
+    <div class="right"></div>
+    <footer>
+        <p class="center">
+            All rights reserved &copy; Practice set 4 <b id="date"></b>
+        </p>
+    </footer>
+</body>
+<link rel="stylesheet" href="csschap4practiceset.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Baloo+Bhai+2:wght@700&display=swap"
+    rel="stylesheet">
+
+<script>
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
+
+    today = mm + '/' + dd + '/' + yyyy;
+    document.getElementById('date').innerText = today;
+</script>
+
+</html>

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    background-color: black;
+    color:white;
+    width: 100px;
+}
+
+.main{
+    background-color: red;
+    color: white;
+}
+
+.background_image{
+    height: 2233px;
+    width: 400px;
+    /* background-attachment: fixed;
+    background-image: url('ML.jpg');
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: 396px 233px; */
+    background: black url('ML.jpg') 1px  no-repeat fixed;
+}
