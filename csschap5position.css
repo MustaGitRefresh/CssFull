@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background-color: black;
+    height: 40px;
+}
+
+li {
+    display: inline;
+}
+
+p {
+    text-align: center;
+    border: 2px solid red;
+}
+
+.container {
+    background-color: aqua;
+    margin: auto;
+    height: 63vh;
+    width: 50vw;
+}
+
+.box {
+    background-color: chartreuse;
+    height: 120px;
+    width: 200px;
+}
