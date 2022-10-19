@@ -1,0 +1,21 @@
+/* html {
+    font-size: 45px;
+} */
+
+.container {
+    /* font-size: 40px; */
+    font-size: 40px;
+}
+
+.box {
+    /* font-size: 15px; */
+    /* font-size: 3em; */
+    /* font-size: 3rem; */
+    background-color: rebeccapurple;
+}
+
+.box2 {
+    background-color: aqua;
+    width: 20vw;
+    height: 20vh;
+}
