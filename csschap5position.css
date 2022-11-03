@@ -3,10 +3,15 @@
     padding: 0;
 }
 
+body {
+    height: 2000px;
+}
+
 header {
     color: white;
     background-color: black;
     height: 40px;
+    position: sticky;
 }
 
 li {
@@ -29,12 +34,18 @@ p {
     background-color: chartreuse;
     height: 120px;
     width: 200px;
-    position: relative;
+    /* position: relative; */
+    /* left: 424px;
+    bottom: 41px; */
+    /* It will calculate the its top left bottom according to the first non-static ancestor */
+    /* position: absolute; */
+    /* position: fixed; */
+    
 }
 
 
 .sbox {
-    background-color: chartreuse;
-    height: 120px;
+    background-color: rgb(8, 0, 255);
+    height: 200px;
     width: 200px;
 }
