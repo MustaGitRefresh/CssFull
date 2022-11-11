@@ -1,0 +1,36 @@
+.container_parent {
+    background-color: khaki;
+    height: 34444px;
+}
+.box {
+    display: inline-block;
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+#box3 {
+    /* * position relative is relative to its normal positon */
+    position: relative;
+    top: 34px;
+    left: 34px;
+}
+
+#box2 {
+    /* * position absolute is relatives to the first parent whoesever if no parent then final parent is body */
+    position: absolute;
+    top: 34px;
+    left:400px
+}
+
+#box1{
+    /* * position is fixed in browser window */
+    position: fixed;
+    right: 0px;
+}
+
+#box4 {
+    position: sticky;
+    top: 3px; 
+}
