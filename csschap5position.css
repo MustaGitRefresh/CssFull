@@ -1,7 +1,7 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 body {
     height: 2000px;
@@ -14,9 +14,9 @@ header {
     position: sticky;
 }
 
-li {
+/* li {
     display: inline;
-}
+} */
 
 p {
     text-align: center;
@@ -39,7 +39,9 @@ p {
     bottom: 41px; */
     /* It will calculate the its top left bottom according to the first non-static ancestor */
     /* position: absolute; */
-    /* position: fixed; */
+    position: fixed;
+    z-index: 10; 
+    /* * z-index is something which is like third-dimension from x and y axis */
     
 }
 
@@ -48,4 +50,8 @@ p {
     background-color: rgb(8, 0, 255);
     height: 200px;
     width: 200px;
+}
+
+ul .list_style_prop {
+    list-style: square outside url('flower.jpg');
 }
