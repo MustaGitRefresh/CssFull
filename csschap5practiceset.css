@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline;
+    font-size: 2vw;
+}
+
+header {
+    padding: 25px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 3px;
+}
+
+.container {
+    min-height: 25555px;
+    background-color: red;
+    position: relative;
+    /* ! Think a quite. That a z-index element will overcome the element here it is navbar because z-index is greater so if that value is not than the navbar will behave like its position is sticky. */
+    z-index: 3;
+}
