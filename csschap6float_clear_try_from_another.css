@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width: 72.2vw;
+    border: 3px dotted purple;
+    margin: auto;
+}
+
+.Item{
+    border: 3px solid gray;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color: rgba(255, 55, 0, 0.707);
+}
+
+#fruits {
+    float: left;
+    width: 48%;
+}
+
+#Computer {
+    float: right;
+    width: 48%;
+}
+#Stationary{
+    width: 100%;
+    clear: both;
+}
