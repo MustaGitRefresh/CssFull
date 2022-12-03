@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    background-color: yellow;
+    height: 56vh;
+    /* row-gap: 2px;
+    column-gap: 9px; */
+    gap: 2px 9px;
+    /* grid-template-columns: 20px 30px auto auto; */
+    grid-template-columns: auto auto auto auto;
+}
+
+.items {
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+
+
+.item1 {
+    background-color: aquamarine;
+    border: 2px solid red;
+    /* grid-column: 1 / 3;
+    grid-row: 1 / span 5; */
+}

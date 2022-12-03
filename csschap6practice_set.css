@@ -1,0 +1,99 @@
+/*  ? This is the code that is only solve a design problem with the help of float property.
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding: 0 43px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.left {
+    height: 80vh;
+    width: 40vw;
+    background-color:aquamarine;
+    float: left;
+}
+
+.right {
+    height: 80vh;
+    width: 40vw;
+    background-color: blueviolet;
+    float: right;
+} */
+
+/* ? This is the code that is only solve a design problem with the help of flex box.*/
+/* 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding: 0 43px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.left {
+    height: 80vh;
+    width: 40vw;
+    background-color:aquamarine;
+    float: left;
+}
+
+.right {
+    height: 80vh;
+    width: 40vw;
+    background-color: blueviolet;
+    float: right;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* ? Practice set question 4 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
